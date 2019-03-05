@@ -1,0 +1,14 @@
+.blog .card {
+  background: #f6f6f6;
+  margin-bottom: 50px; }
+  .blog .card .card-title {
+    font-size: 24px;
+    font-family: "Blogger Sans Medium", sans-serif; }
+  .blog .card .card-text {
+    font-family: "Blogger Sans Light",sans-serif; }
+  .blog .card a {
+    float: right;
+    border: 1px solid #40555f;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    padding: 10px 20px; }

@@ -1,0 +1,149 @@
+.sets .title {
+  margin-bottom: 50px;
+  text-align: center; }
+  .sets .title h2 {
+    font-family: "Blogger Sans Bold",sans-serif; }
+
+.sets .modal .modal-content button {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px; }
+
+.sets .modal .img img {
+  max-height: 450px;
+  width: 100%;
+  height: 100%; }
+
+.sets .modal .description {
+  padding: 20px 10px; }
+  .sets .modal .description button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    border: none;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    background: #7ac942;
+    color: #ffffff; }
+    .sets .modal .description button i {
+      color: #ffffff; }
+  .sets .modal .description .title {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .sets .modal .description .title h2 {
+      color: #7ac942; }
+      .sets .modal .description .title h2:before, .sets .modal .description .title h2:after {
+        content: '';
+        width: 0; }
+    .sets .modal .description .title .cena {
+      font-size: 26px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .sets .modal .description .title .cena h3 {
+        font-family: "Blogger Sans Bold",sans-serif;
+        color: #000000;
+        margin-bottom: 15px; }
+        .sets .modal .description .title .cena h3:nth-child(1) {
+          margin-right: 20px;
+          text-decoration: line-through;
+          color: #888888; }
+  .sets .modal .description .composition ul {
+    width: 100%;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2; }
+    .sets .modal .description .composition ul li {
+      color: #7b7b7b;
+      margin-right: 20px;
+      font-size: 17px; }
+
+.sets .item {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+  text-align: center; }
+  .sets .item img {
+    width: 100%; }
+  .sets .item .description {
+    padding-top: 20px; }
+    .sets .item .description .cena {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      font-size: 26px; }
+      .sets .item .description .cena h3 {
+        color: #f57779;
+        margin: 0 20px; }
+      .sets .item .description .cena p {
+        margin: 0 10px; }
+      .sets .item .description .cena span {
+        color: #a5a5a5;
+        text-decoration: line-through; }
+    .sets .item .description .buttons {
+      padding-top: 20px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-basis: auto;
+          -ms-flex-preferred-size: auto;
+              flex-basis: auto; }
+      .sets .item .description .buttons button {
+        cursor: pointer;
+        text-transform: uppercase;
+        color: #ffffff;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        padding: 10px 0;
+        border: 2px solid #7ac942;
+        -webkit-border-radius: 20px 0 0 20px;
+                border-radius: 20px 0 0 20px;
+        background: #7ac942; }
+        .sets .item .description .buttons button:nth-child(2n) {
+          color: #7ac942;
+          -webkit-border-radius: 0 20px 20px 0;
+                  border-radius: 0 20px 20px 0;
+          background: #ffffff; }

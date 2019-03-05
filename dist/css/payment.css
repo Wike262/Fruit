@@ -1,0 +1,14 @@
+.payment .item {
+  margin-bottom: 20px; }
+  .payment .item .content {
+    border: 1px solid #e5e5e5;
+    padding: 20px 40px; }
+    .payment .item .content ol {
+      padding: 20px; }
+      .payment .item .content ol li {
+        color: #636363; }
+
+.payment .description {
+  padding: 50px 15px; }
+  .payment .description p {
+    color: #636363; }

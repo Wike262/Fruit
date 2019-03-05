@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Gabriela");
+@font-face {
+  font-family: "Blogger Sans";
+  src: url("../fonts/bloggersans/BloggerSans.otf");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Blogger Sans Bold";
+  src: url("../fonts/bloggersans/BloggerSans-Bold.otf");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Blogger Sans Bold Italic";
+  src: url("../fonts/bloggersans/BloggerSans-BoldItalic.otf");
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Blogger Sans Italic";
+  src: url("../fonts/bloggersans/BloggerSansItalic.otf");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Blogger Sans Light Italic";
+  src: url("../fonts/bloggersans/BloggerSans-LightItalic.otf");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Blogger Sans Light";
+  src: url("../fonts/bloggersans/BloggerSans-Light.otf");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Blogger Sans Medium Italic";
+  src: url("../fonts/bloggersans/BloggerSans-MediumItalic.otf");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Blogger Sans Medium";
+  src: url("../fonts/bloggersans/BloggerSans-Medium.otf");
+  font-weight: 600;
+  font-style: normal; }
