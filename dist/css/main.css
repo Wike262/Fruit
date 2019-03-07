@@ -52,6 +52,15 @@
   color: #43596e;
   outline: none; }
 
+*:active, *:focus {
+    outline: none !important;
+    outline-offset: 0 !important;
+}
+button:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+  
 a {
   color: #43596e; }
   a:hover {
@@ -108,17 +117,18 @@ header .callback {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 20px; }
-    header .callback .contact h2 {
+    header .callback .contact .title h2 {
       font-family: "Blogger Sans Bold";
-      font-size: 22px; }
-    header .callback .contact button {
+      font-size: 21px; }
+    header .callback .contact .title button {
       border: none;
       background: #7ac942;
       -webkit-border-radius: 5px;
               border-radius: 5px;
       padding: 5px 20px;
+      margin: 0;
       float: right; }
-      header .callback .contact button a {
+      header .callback .contact .title button a {
         color: #ffffff; }
     header .callback .contact img {
       height: 20px;
@@ -130,6 +140,11 @@ header .callback {
     margin-left: 30px; }
     header .callback .cont .basket {
       margin-bottom: 20px; }
+      header .callback .cont .basket button {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0; }
       header .callback .cont .basket:after {
         padding: 5px 10px;
         color: #ffffff;
@@ -154,6 +169,7 @@ header .menu {
   margin: 20px 0;
   width: 100%; }
   header .menu .background {
+    background-image: none;
     overflow: hidden;
     position: absolute;
     top: 5px;
@@ -181,8 +197,12 @@ header .menu {
       -webkit-justify-content: space-around;
           -ms-flex-pack: distribute;
               justify-content: space-around; }
-      header .menu nav .navbar-nav .dropdown:hover .dropdown-menu {
-        display: block; }
+      header .menu nav .navbar-nav .hover .nav-link:hover + .dropdown-menu {
+        display: block;
+        margin:0 }
+        header .menu nav .navbar-nav .hover .dropdown-menu:hover {
+          display: block;
+          margin:0 }
       header .menu nav .navbar-nav .dropdown-item {
         text-decoration: underline; }
         header .menu nav .navbar-nav .dropdown-item:hover {
@@ -303,3 +323,17 @@ footer {
     footer .contact .phones h3, footer .contact .phones p {
       color: #ffffff;
       text-align: right; }
+
+button {
+  outline: none;
+  padding: 10px 20px;
+  font-family: "Blogger Sans Bold", sans-serif;
+  border: 2px solid #7ac942;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  background: #7ac942;
+  color: #ffffff;
+  margin: 10px 20px; }
+  button:nth-child(2n) {
+    color: #7ac942;
+    background: #ffffff; }

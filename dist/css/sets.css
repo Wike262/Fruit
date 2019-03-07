@@ -130,9 +130,10 @@
           -ms-flex-preferred-size: auto;
               flex-basis: auto; }
       .sets .item .description .buttons button {
+        font-family: "Blogger Sans",sans-serif;
+        margin: 0;
         cursor: pointer;
         text-transform: uppercase;
-        color: #ffffff;
         -webkit-box-flex: 1;
         -webkit-flex: 1;
             -ms-flex: 1;
@@ -140,8 +141,7 @@
         padding: 10px 0;
         border: 2px solid #7ac942;
         -webkit-border-radius: 20px 0 0 20px;
-                border-radius: 20px 0 0 20px;
-        background: #7ac942; }
+                border-radius: 20px 0 0 20px; }
         .sets .item .description .buttons button:nth-child(2n) {
           color: #7ac942;
           -webkit-border-radius: 0 20px 20px 0;

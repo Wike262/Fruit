@@ -2,15 +2,14 @@ header {
   position: relative; }
   header .background {
     width: 100%;
-    height: 100vh;
+    height: 160vh;
     position: absolute;
     z-index: -1; }
     header .background img {
-      width: 100%;
-      height: 100%; }
+      width: 100%;}
 
 .responsive {
-  height: 50vh; }
+  height: 15vh; }
 
 .deliver {
   height: 100%; }
@@ -57,18 +56,6 @@ header {
     .deliver .row .buttons {
       margin-bottom: 50px;
       text-align: center; }
-      .deliver .row .buttons button {
-        padding: 10px 20px;
-        font-family: "Blogger Sans Bold", sans-serif;
-        border: 2px solid #7ac942;
-        -webkit-border-radius: 25px;
-                border-radius: 25px;
-        background: #7ac942;
-        color: #ffffff;
-        margin: 10px 20px; }
-        .deliver .row .buttons button:nth-child(2n) {
-          color: #7ac942;
-          background: #ffffff; }
 
 .advantages {
   margin-bottom: 50px;
@@ -94,18 +81,6 @@ header {
 .sets .buttons-title {
   margin-bottom: 50px;
   text-align: center; }
-  .sets .buttons-title button {
-    padding: 10px 20px;
-    font-family: "Blogger Sans Bold", sans-serif;
-    border: 2px solid #7ac942;
-    -webkit-border-radius: 25px;
-            border-radius: 25px;
-    background: #7ac942;
-    color: #ffffff;
-    margin: 10px 20px; }
-    .sets .buttons-title button:nth-child(2n) {
-      color: #7ac942;
-      background: #ffffff; }
 
 .assemble {
   background: url("../img/bg_assemble.jpg");
@@ -123,15 +98,9 @@ header {
     text-transform: uppercase;
     padding: 15px 40px;
     font-family: "Blogger Sans Medium", sans-serif;
-    border: 2px solid #7ac942;
     -webkit-border-radius: 50px;
             border-radius: 50px;
-    background: #7ac942;
-    color: #ffffff;
     margin: 0 20px; }
-    .products .buttons-more button:nth-child(2n) {
-      color: #7ac942;
-      background: #ffffff; }
 
 .order {
   position: relative; }
@@ -180,7 +149,6 @@ header {
         text-transform: uppercase;
         padding: 15px 40px;
         font-family: "Blogger Sans Medium", sans-serif;
-        border: 2px solid #7ac942;
         -webkit-border-radius: 50px;
                 border-radius: 50px;
         background: #7ac942;

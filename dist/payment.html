@@ -9,36 +9,40 @@
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/payment.css">
+	<link rel="stylesheet" href="css/fruit.css">
+
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="time_of_work col-12 col-lg-4 d-lg-flex ">
-					<img src="img/clock.png" alt="Clock">
-					<div class="title">
-						<h2>Мы работаем: пн - вс</h2>
-						<h2>с 8:00 до 23:00</h2>
-					</div>
-				</div>
-				<div class="logotype col">
-					<a href="#"><img src="img/logo.png" alt="logotype"></a>
-				</div>
-				<div class="callback col-12 col-lg-4 justify-content-center d-lg-flex">
-					<div class="contact">
-						<img src="img/phone.png" alt="phone">
-						<div class="title">
-							<h2>+7 (499) 430-00-16</h2>
-							<button><a href="#">заказать звонок</a></button>
+		<header>
+				<div class="container">
+					<div class="row">
+						<div class="time_of_work col-12 col-lg-4 d-lg-flex justify-content-center justify-content-lg-start ">
+							<img src="img/clock.png" alt="Clock" class="d-none d-lg-block">
+							<div class="title d-flex flex-column align-items-center d-lg-block">
+								<h2>Мы работаем: пн - вс</h2>
+								<h2>с 8:00 до 23:00</h2>
+							</div>
 						</div>
-					</div>
-					<div class="cont d-none d-lg-block">
-						<div class="basket">
-							<a href="#"><img src="img/basket.png" alt="backet"></a>
+						<div class="logotype col">
+							<a href="index.html"><img src="img/logo.png" alt="logotype"></a>
 						</div>
-					</div>
-				</div>
+						<div class="callback col-12 col-lg-4 justify-content-center d-lg-flex">
+							<div class="contact">
+								<img src="img/phone.png" alt="phone" class="d-none d-lg-block">
+								<div class="title d-flex flex-column ">
+									<h2>+7 (499) 430-00-16</h2>
+									<button><a href="#">заказать звонок</a></button>
+								</div>
+							</div>
+							<div class="cont d-none d-lg-block">
+								<div class="basket">
+									<button type="button" data-toggle="modal" data-target=".bd-example-modal-xl-1">
+										<img src="img/basket.png" alt="backet"></a>
+									</button>
+								</div>
+							</div>
+						</div>
 				<div class="menu">
 					<div class="background">
 						<img src="img/bg_menu.png" alt="background">
@@ -65,12 +69,24 @@
 								<li class="nav-item">
 									<a class="nav-link" href="#">Сушеные фрукты</a>
 								</li>
-								<li class="nav-item dropdown">
+								<li class="nav-item dropdown hover d-none d-xl-block">
 									<a class="nav-link dropdown-toggle" href="about.html">
 										О нас
 									</a>
-									<div class="dropdown-menu">
-										<a class="dropdown-item" href="#">Оплата и доставка</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="payment.html">Оплата и доставка</a>
+										<a class="dropdown-item" href="reviews.html">Отзывы</a>
+										<a class="dropdown-item" href="contact.html">Контакты</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown d-block d-xl-none">
+									<a class="nav-link dropdown-toggle d-block d-xl-none" href="about.html" id="navbarDropdown" role="button"
+									 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										О нас
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item d-xl-none" href="about.html">О нас</a>
+										<a class="dropdown-item" href="payment.html">Оплата и доставка</a>
 										<a class="dropdown-item" href="reviews.html">Отзывы</a>
 										<a class="dropdown-item" href="contact.html">Контакты</a>
 									</div>
@@ -122,6 +138,223 @@
 					<p>Позвоните менеджеру, чтобы узнать стоимость доставки за МКАД</p>
 					<p>Для осуществления доставки день-в-день оформить заказ нужно до 15:00</p>
 					<p>Для доставки на следующий день оформить заказ нужно до 21:00</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="products">
+			<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="img col-lg-6 col-12">
+									<img src="img/assemble_1.jpg" alt="assemble_1">
+								</div>
+								<div class="description col-lg-6 col-12 d-flex flex-column align-items-center d-lg-block">
+									<div class="title justify-content-center justify-content-lg-between">
+										<h2>Манго сорт "Нам док май"</h2>
+										<div class="cena justify-content-around">
+											<h3>395 руб.</h3>
+										</div>
+									</div>
+									<div class="des">
+										<p>Калорийность (на 100г): 70 Ккал<br>У сладких спелых фруктов вкус нежный, очень сахарный. Когда
+											они
+											немного недоспелые, то присутствует приятная кислинка.
+											Едят манго разрезав плод на две половинки и вынимая мякоть ложной.
+											Добавляют манго в сладкие блюда, в мороженое и блинчики. А ещё
+											мякоть тайского манго кидают в блендер вместе с ледяной крошкой,
+											из него получается восхитительный смузи с освежающим вкусом.
+											Манго не только вкусный, но также крайне полезных фрукт. Плоды
+											среднего размера способен обеспечить организм клетчаткой,
+											витамином С, Е и А. Ко всему прочему манго содержит достаточно
+											кальция, чтобы поддерживать вашу кожу здоровой и сияющей.</p>
+									</div>
+									<button>
+										В корзину
+										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bd-example-modal-xl-1" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						Очистить корзину
+					</button>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="title col-12">
+									<h2>Фруктов в корзине на 2 111 рублей</h2>
+								</div>
+							</div>
+							<div class="basket">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="item col-12 col-lg-2">
+											<button>Убрать из корзины</button>
+											<img src="img/assemble_1.jpg" alt="assemble_1">
+											<h3>Манго Бразилия</h3>
+
+											<div class="count">
+												<select name="count" id="1">
+													<option value="1" selected>1 шт.</option>
+													<option value="2">2 шт.</option>
+													<option value="3">3 шт.</option>
+													<option value="4">4 шт.</option>
+													<option value="5">5 шт.</option>
+													<option value="10">10 шт.</option>
+												</select>
+												<h4>245 руб.</h4>
+											</div>
+										</div>
+										<div class="item col-12 col-lg-2">
+											<button>Убрать из корзины</button>
+											<img src="img/assemble_1.jpg" alt="assemble_1">
+											<h3>Манго Махачанок</h3>
+
+											<div class="count">
+												<select name="count" id="2">
+													<option value="1" selected>1 шт.</option>
+													<option value="2">2 шт.</option>
+													<option value="3">3 шт.</option>
+													<option value="4">4 шт.</option>
+													<option value="5">5 шт.</option>
+													<option value="10">10 шт.</option>
+												</select>
+												<h4>399 руб.</h4>
+											</div>
+										</div>
+										<div class="item col-12 col-lg-2">
+											<button>Убрать из корзины</button>
+											<img src="img/assemble_1.jpg" alt="assemble_1">
+											<h3>Манго Перу</h3>
+
+											<div class="count">
+												<select name="count" id="3">
+													<option value="1" selected>1 шт.</option>
+													<option value="2">2 шт.</option>
+													<option value="3">3 шт.</option>
+													<option value="4">4 шт.</option>
+													<option value="5">5 шт.</option>
+													<option value="10">10 шт.</option>
+												</select>
+												<h4>699 руб.</h4>
+											</div>
+										</div>
+										<div class="item col-12 col-lg-2">
+											<button>Убрать из корзины</button>
+											<img src="img/assemble_1.jpg" alt="assemble_1">
+											<h3>Манго Кео-Савое</h3>
+
+											<div class="count">
+												<select name="count" id="4">
+													<option value="1" selected>1 шт.</option>
+													<option value="2">2 шт.</option>
+													<option value="3">3 шт.</option>
+													<option value="4">4 шт.</option>
+													<option value="5">5 шт.</option>
+													<option value="10">10 шт.</option>
+												</select>
+												<h4>389 руб.</h4>
+											</div>
+										</div>
+										<div class="item col-12 col-lg-2">
+											<button>Убрать из корзины</button>
+											<img src="img/assemble_1.jpg" alt="assemble_1">
+											<h3>Ананас сорт "Пхукет-Мини"</h3>
+											<div class="count">
+												<select name="count" id="5">
+													<option value="1" selected>1 шт.</option>
+													<option value="2">2 шт.</option>
+													<option value="3">3 шт.</option>
+													<option value="4">4 шт.</option>
+													<option value="5">5 шт.</option>
+													<option value="10">10 шт.</option>
+												</select>
+												<h4>379 руб.</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="buttons col-12">
+								<button type="button" data-toggle="modal" data-target=".bd-example-modal-lg">Далее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close" data-toggle="modal">
+						Вернуться в корзину
+					</button>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="title col-12">
+									<h2>Фруктов в корзине на 2 111 рублей</h2>
+								</div>
+							</div>
+							<div class="form">
+								<form action="post">
+									<div class="row">
+										<div class="input col-lg-6 col-12">
+											<input type="text" placeholder="Введите Ваше имя">
+										</div>
+										<div class="input col-lg-6 col-12">
+											<input type="text" placeholder="Введите Ваш телефон">
+										</div>
+										<div class="input col-12">
+											<input type="text" placeholder="Введите адрес доставки">
+										</div>
+										<div class="input col-lg-6 col-12">
+											<input type="date" value="2019-03-06">
+										</div>
+										<div class="input col-lg-6 col-12">
+											<input type="time" value="13:30">
+										</div>
+										<div class="input col-12">
+											<textarea name="textarea" id="text" cols="30" rows="5"
+												placeholder="Комментарий к заказу"></textarea>
+										</div>
+										<div class="input col-lg-4 col-12">
+											<input type="radio" name="pay" id="nal" checked>
+											<label for="nal"><img src="img/pay.png" alt="pay_icon"> Оплата наличными курьеру</label>
+										</div>
+										<div class="input col-lg-4 col-12">
+											<input type="radio" name="pay" id="web">
+											<label for="web"><img src="img/pay_2.png" alt="pay_icon">Банковской картой через сайт</label>
+										</div>
+										<div class="input col-lg-4 col-12">
+											<input type="radio" name="pay" id="contactless" checked>
+											<label for="contactless"><img src="img/pay_2.png" alt="pay_icon">Банковской картой курьеру</label>
+										</div>
+										<div class="button col-12">
+											<button>Оформить заказ</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
